@@ -1,12 +1,64 @@
-.quantity input {
-    width: 100px;
+.container {
+    max-width: 900px;
 }
 
-.quantity {
-    width: 180px;
+.header {
+    width: 15%;
+}
+
+input {
+    width: 100px;
 }
 
 .mx-2 {
     margin-left: 5px;
     margin-right: 5px;
+}
+
+hr {
+    height: 2px;
+    border: none;
+    color: #ddd;
+    background-color: #ddd;
+    width: 100%;
+}
+
+body {
+    background-color: #656565;
+    font-family: Roboto;
+}
+
+.block {
+    padding: 25px;
+    margin: 20px;
+    border-radius:25px;
+    box-shadow: 10px 10px 8px rgb(50, 50, 50);
+}
+
+#block1 {
+    background-color: #ffffb1;
+}
+
+#block2 {
+    background-color: #acffbe;
+}
+
+#block3 {
+    background-color: #b5defe;
+}
+
+table {
+    margin: 15px;
+}
+
+table > thead > tr > th {
+    border-color: black !important;
+}
+
+table > tbody > tr > td{
+    border-color: black !important;
+}
+
+form {
+    margin-left: 15px;
 }
